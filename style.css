@@ -1,0 +1,33 @@
+/* GENERAL */
+
+ body{
+     background-image: url(images/rawpixel-569615-unsplash.jpg);
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+     
+ }
+
+ h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+ }
+
+
+ /* VCARD */
+
+ #v-card{
+     width: 960px;
+     height: 480px;
+     background-color: white;
+     margin: 0 auto;
+     border-radius: 35px;
+     display: grid;
+     grid-template-rows: 40% 40% 20%;
+     grid-template-columns: 25% 75%;
+     grid-gap: 5px;
+ }
+
+ .header-card{
+     display: grid;
+ }
